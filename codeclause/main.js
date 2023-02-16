@@ -75,6 +75,6 @@ function stopwatch(){
         document.getElementById('minute').innerHTML = minString;
         document.getElementById('second').innerHTML = secString;
         document.getElementById('count').innerHTML = countString;
-        setTimeout(stopwatch, 10);
+        setTimeout(stopwatch, 7.5);
     }
 }
